@@ -5719,6 +5719,25 @@ div.switch.round {
 /* ========================= Banner_Amarillo ============================ */
 /* ====================================================================== */
 
+/* ====================================================================== */
+/* ========================= Banner_Amarillo ============================ */
+/* ====================================================================== */
+
+  div.ramssesopolus{
+    background: rgba(240,227,82,1);
+    background: -moz-linear-gradient(top, rgba(240,227,82,1) 0%, rgba(254,182,69,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,227,82,1)), color-stop(100%, rgba(254,182,69,1)));
+    background: -webkit-linear-gradient(top, rgba(240,227,82,1) 0%, rgba(254,182,69,1) 100%);
+    background: -o-linear-gradient(top, rgba(240,227,82,1) 0%, rgba(254,182,69,1) 100%);
+    background: -ms-linear-gradient(top, rgba(240,227,82,1) 0%, rgba(254,182,69,1) 100%);
+    background: linear-gradient(to bottom, rgba(240,227,82,1) 0%, rgba(254,182,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0e352', endColorstr='#feb645', GradientType=0 );
+  }
+
+/* ====================================================================== */
+/* ========================= Banner_Amarillo ============================ */
+/* ====================================================================== */
+
 /* small displays */
 @media only screen {
   .show-for-small-only, .show-for-small-up, .show-for-small, .show-for-small-down, .hide-for-medium-only, .hide-for-medium-up, .hide-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
