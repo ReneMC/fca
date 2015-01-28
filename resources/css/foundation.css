@@ -5748,6 +5748,13 @@ div.switch.round {
       -ms-filter: "FlipH";
   }
 
+  .div-sinfondo{
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 1px solid #f2f2f2;
+  }
+
 /* ====================================================================== */
 /* ========================= Banner_Amarillo ============================ */
 /* ====================================================================== */
