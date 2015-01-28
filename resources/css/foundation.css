@@ -5715,23 +5715,45 @@ div.switch.round {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0e352', endColorstr='#feb645', GradientType=0 );
   }
 
-/* ====================================================================== */
-/* ========================= Banner_Amarillo ============================ */
-/* ====================================================================== */
+  div.amarisho{
+  background: rgba(242,234,115,1);
+  background: -moz-linear-gradient(left, rgba(242,234,115,1) 0%, rgba(254,182,69,0.86) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,234,115,1)), color-stop(100%, rgba(254,182,69,0.86)));
+  background: -webkit-linear-gradient(left, rgba(242,234,115,1) 0%, rgba(254,182,69,0.86) 100%);
+  background: -o-linear-gradient(left, rgba(242,234,115,1) 0%, rgba(254,182,69,0.86) 100%);
+  background: -ms-linear-gradient(left, rgba(242,234,115,1) 0%, rgba(254,182,69,0.86) 100%);
+  background: linear-gradient(to right, rgba(242,234,115,1) 0%, rgba(254,182,69,0.86) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2ea73', endColorstr='#feb645', GradientType=1 );
+  }
 
-/* ====================================================================== */
-/* ========================= Banner_Amarillo ============================ */
-/* ====================================================================== */
+  div.verdesito{
+    background: rgba(84,232,158,1);
+    background: -moz-linear-gradient(-45deg, rgba(84,232,158,1) 0%, rgba(0,179,89,0.92) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(84,232,158,1)), color-stop(100%, rgba(0,179,89,0.92)));
+    background: -webkit-linear-gradient(-45deg, rgba(84,232,158,1) 0%, rgba(0,179,89,0.92) 100%);
+    background: -o-linear-gradient(-45deg, rgba(84,232,158,1) 0%, rgba(0,179,89,0.92) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(84,232,158,1) 0%, rgba(0,179,89,0.92) 100%);
+    background: linear-gradient(135deg, rgba(84,232,158,1) 0%, rgba(0,179,89,0.92) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54e89e', endColorstr='#00b359', GradientType=1 );
+  }
+  .inner-shadow {
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+  }
+  .shadow {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+  }
 
-  div.ramssesopolus{
-    background: rgba(240,227,82,1);
-    background: -moz-linear-gradient(top, rgba(240,227,82,1) 0%, rgba(254,182,69,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,227,82,1)), color-stop(100%, rgba(254,182,69,1)));
-    background: -webkit-linear-gradient(top, rgba(240,227,82,1) 0%, rgba(254,182,69,1) 100%);
-    background: -o-linear-gradient(top, rgba(240,227,82,1) 0%, rgba(254,182,69,1) 100%);
-    background: -ms-linear-gradient(top, rgba(240,227,82,1) 0%, rgba(254,182,69,1) 100%);
-    background: linear-gradient(to bottom, rgba(240,227,82,1) 0%, rgba(254,182,69,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0e352', endColorstr='#feb645', GradientType=0 );
+  img.reverse{
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
   }
 
 /* ====================================================================== */
