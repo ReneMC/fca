@@ -3367,7 +3367,7 @@ ul.pagination {
       font-size: 0.875rem;
       font-weight: bold;
       text-transform: uppercase; }
-
+      
 .accordion {
   margin-bottom: 0; }
   .accordion:before, .accordion:after {
@@ -3379,22 +3379,22 @@ ul.pagination {
     display: block;
     margin-bottom: 0 !important; }
     .accordion .accordion-navigation.active > a, .accordion dd.active > a {
-      background: #e8e8e8; }
+      background: #409950; }
     .accordion .accordion-navigation > a, .accordion dd > a {
-      background: #efefef;
+      background: #55CC6B;
       color: #222222;
       padding: 1rem;
       display: block;
       font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-        background: #e3e3e3; }
+        background: #98D4A3; }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
       display: none;
       padding: 0.9375rem; }
       .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
         display: block;
-        background: white; }
+        background: #EDEDED; }
 
 .split.button {
   position: relative;

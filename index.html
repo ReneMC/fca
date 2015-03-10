@@ -16,6 +16,18 @@
     <script src="mediaelement/testforfiles.js"></script>
     <link rel="stylesheet" href="mediaelement/build/mediaelementplayer.min.css" />
     <!-- ================ Fin de Imports del Reproductor de Radio ==============-->
+
+    <style type="text/css">
+      .contador{
+        position  :absolute;
+        right     : 10px;
+        height    : 60px;
+      }
+      .espacioCompleto{
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+    </style>
   </head>
   <body>
 
@@ -94,15 +106,16 @@
 <!--===================== Slideshow Inicio (Orbit Slider) ======================-->
 <!--============================================================================-->
 
-    <div class="row darkgrey clearfix">
+    <div class="row darkgrey clearfix espacioCompleto">
       <ul class="example-orbit" data-orbit>
         <li>
           <img src="resources/img/slider/a.jpg" alt="slide 1" />
           <div class="orbit-caption">UABC una de las mejores universidades p&uacute;blicas del Pa&iacute;s</div>
         </li>
-      <li class="active">
-        <img src="resources/img/slider/b.jpg" alt="slide 2" />
-        <div class="orbit-caption">Orgullosamente cimarrón con valores!</div></li>
+        <li class="active">
+          <img src="resources/img/slider/b.jpg" alt="slide 2" />
+          <div class="orbit-caption">Orgullosamente cimarrón con valores!</div>
+        </li>
         <li>
           <img src="resources/img/slider/c.jpg" alt="slide 3" />
           <div class="orbit-caption">Carreras acreditadas</div>
@@ -284,9 +297,11 @@
 </div>
 
 <div id="socialsbar">
+  <!--  <img class="contador" style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=185858" /> -->
   <center>
-    <h5 class="footer"><small>Copyright © 2015 Facultad de Ciencias Administrativas UABC. Todos los derechos reservados.</small></h5><span data-tooltip aria-haspopup="true" class="has-tip tip-top" title="Aqui va el tip :)"><h5 class="footer"><small>Diseñado por el departamento de sistematizaci&oacute;n y desarrollo FCA.</small></h5></span></div>
+    <h5 class="footer"><small>Copyright © 2015 Facultad de Ciencias Administrativas UABC. Todos los derechos reservados.</small></h5><span data-tooltip aria-haspopup="true" class="has-tip tip-top" title="Aqui va el tip :)"><h5 class="footer"><small>Diseñado por el departamento de sistematizaci&oacute;n y desarrollo FCA.</small></h5></span>
   </center>
+</div>
 </div>
 
 <!--============================================================================-->
@@ -324,7 +339,6 @@
       // Carga footer
       $("#footer").load("footer.html");
         });
-
       $('a.reveal-link').trigger('click');
       $('a.close-reveal-modal').trigger('click');
     </script>
